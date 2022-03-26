@@ -56,6 +56,7 @@
 		A937A0E427EEB00300E9958A /* RubberDuck */ = {
 			isa = PBXGroup;
 			children = (
+				A937A0F927EEB44500E9958A /* Models */,
 				A937A0E527EEB00300E9958A /* AppDelegate.swift */,
 				A937A0E727EEB00300E9958A /* SceneDelegate.swift */,
 				A937A0E927EEB00300E9958A /* ViewController.swift */,
@@ -65,6 +66,13 @@
 				A937A0F327EEB00400E9958A /* Info.plist */,
 			);
 			path = RubberDuck;
+			sourceTree = "<group>";
+		};
+		A937A0F927EEB44500E9958A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
