@@ -9,6 +9,7 @@ import Foundation
 
 struct Timer {
   var title: String
+  var steps: [Step]
   var totalTime: Int
   var totalStepCount: Int
 }
