@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Timer {
+struct Timer: Identifiable {
+  var id: String = UUID().uuidString
   var title: String
   var steps: [Step]
   var totalTime: Int
